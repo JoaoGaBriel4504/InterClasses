@@ -1,22 +1,113 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    color: white;
+}
+
+    .hero button {
+        background: #fff;
+        color: #0072ff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Tabela */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #0072ff;
+    color: white;
+}
+
+/* Galeria */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+    .galeria img {
+        width: 200px;
+        border-radius: 8px;
+    }
+
+/* Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background: #0072ff;
+    color: white;
+    border: none;
 }

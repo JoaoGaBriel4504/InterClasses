@@ -1,8 +1,102 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Interclasse 2025";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container py-5" style="background: linear-gradient(to bottom, #e6f7ff, #ffffff); border-radius: 10px;">
+	<!-- Banner -->
+	<div class="row justify-content-center mb-5">
+		<div class="col-12 text-center">
+			<h1 class="display-4 fw-bold text-success">🏆 INTERCLASSE 2025</h1>
+			<p class="lead mt-3" style="color: #555;">O maior torneio esportivo da escola — prepare-se para competir, torcer e fazer história!</p>
+		</div>
+	</div>
+
+	<!-- Modalidades -->
+	<div class="row text-center mb-5">
+		<h2 class="fw-bold mb-4 text-primary">⚽ Modalidades</h2>
+		<div class="col-6 col-md-3 mb-3">
+			<div class="card shadow-lg border-0" style="background: #ffeb99;">
+				<div class="card-body fw-bold">Futebol</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-3 mb-3">
+			<div class="card shadow-lg border-0" style="background: #b3e6ff;">
+				<div class="card-body fw-bold">Vôlei</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-3 mb-3">
+			<div class="card shadow-lg border-0" style="background: #c2f0c2;">
+				<div class="card-body fw-bold">Basquete</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-3 mb-3">
+			<div class="card shadow-lg border-0" style="background: #ffcccc;">
+				<div class="card-body fw-bold">Atletismo</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Tabela de Jogos -->
+	<div class="row justify-content-center mb-5">
+		<div class="col-12 text-center">
+			<h2 class="fw-bold mb-4 text-warning">📅 Tabela de Jogos</h2>
+			<table class="table table-hover shadow-sm">
+				<thead style="background: #007bff; color: white;">
+					<tr>
+						<th>Data</th>
+						<th>Jogo</th>
+						<th>Horário</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>25/06</td>
+						<td>Turma 2 ano A x Turma 2 ano B</td>
+						<td>09:00</td>
+					</tr>
+					<tr style="background: #f9f9f9;">
+						<td>26/06</td>
+						<td>Turma 3 ano C x Turma 3 ano B</td>
+						<td>10:30</td>
+					</tr>
+					<tr>
+						<td>27/06</td>
+						<td>Turma 1 ano A x Turma 1 ano B</td>
+						<td>14:00</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<!-- Galeria -->
+	<div class="row text-center mb-5">
+		<h2 class="fw-bold mb-4 text-danger">📸</h2>
+		<div class="col-12 d-flex justify-content-center flex-wrap gap-3">
+			<img src="~/img/img88.png" alt="Jogo 1" class="rounded shadow-lg border border-primary" style="width: 220px; height: 150px; object-fit: cover;">
+			<img src="~/img/img77.jpg" alt="Jogo 2" class="rounded shadow-lg border border-success" style="width: 220px; height: 150px; object-fit: cover;">
+			<img src="~/img/img66.jpg" alt="Torcida" class="rounded shadow-lg border border-warning" style="width: 220px; height: 150px; object-fit: cover;">
+		</div>
+	</div>
+
+	<!-- Contato -->
+	<div class="row justify-content-center">
+		<div class="col-12 col-md-6 text-center">
+			<h2 class="fw-bold mb-4 text-info">📧 Contato da Organização</h2>
+			<ul class="list-unstyled">
+				<li>
+					<i class="bi bi-envelope text-primary"></i>
+					<a class="text-decoration-none text-dark" href="mailto:contato@interclasse.com">contato@interclasse.com</a>
+				</li>
+				<li>
+					<i class="bi bi-instagram text-danger"></i>
+					<a class="text-decoration-none text-dark" href="https://instagram.com/interclasse2025" target="_blank">@@interclasse2025</a>
+				</li>
+				<li>
+					<i class="bi bi-whatsapp text-success"></i>
+					<a class="text-decoration-none text-dark" href="https://wa.me/5500000000000" target="_blank">(14) 998834-5670</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>
